@@ -71,10 +71,7 @@ The resulting topics are:
 
 /imu/filtered
 ```
-Note that you must run the following command each time you open a new terminal
-```bash
-source /opt/ros/jazzy/setup.bash
-```
+
 ---
 
 # Method 2: Running Nodes Manually (Without Launch File)
@@ -116,5 +113,8 @@ ros2 run imu_pipeline logger_node
 ```
 
 ---
-
+Note that you must run the following command each time you open a new terminal
+```bash
+source /opt/ros/jazzy/setup.bash
+```
 
