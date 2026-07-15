@@ -1,0 +1,8 @@
+sensor_driver: #namespace same as node name passed to the Node constructor
+  ros__parameters:
+     publish_rate_hz: 50
+
+
+filter_node:
+  ros__parameters:
+    window_size: 10
