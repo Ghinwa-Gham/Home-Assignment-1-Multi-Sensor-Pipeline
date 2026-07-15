@@ -71,7 +71,17 @@ The resulting topics are:
 
 /imu/filtered
 ```
-
+Note that you must run the following commands before runnignt he command provided above:
+```bash
+source /opt/ros/jazzy/setup.bash
+```
+```bash
+colcon build
+```
+and 
+```bash
+source install/setup.bash
+```
 ---
 
 # Method 2: Running Nodes Manually (Without Launch File)
