@@ -55,7 +55,7 @@ The launch file starts all three nodes automatically:
 Run:
 
 ```bash
-ros2 launch imu_pipeline imu_pipeline.launch.py
+ros2 launch imu_pipeline launch.py
 ```
 
 The launch file automatically:
